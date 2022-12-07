@@ -1,0 +1,118 @@
+@media screen and (max-width: 1024px) {
+    .hero .title,
+    .found-year span {
+        font-size: 4.2rem;
+    }
+    .hero .desc-title,
+    .hero .desc,
+    .properties-sub {
+        font-size: 1.6rem;
+    }
+
+    .hero-img {
+        width: 450px;
+        right: calc((100vw - 1110px) / 2 + 67px);
+    }
+
+    h2 {
+        font-size: 3.2rem;
+    }
+
+    .properies-icons {
+        font-size: 1.4rem;
+    }
+    .properies-icons + .properies-icons {
+        padding: 0 6px;
+    }
+
+    .properies-icons + .properies-icons {
+        padding: 0 12px;
+    }
+
+    .found-container .found-content {
+        margin-left: 30px;
+    }
+
+    .found-container img {
+        max-width: 350px;
+    }
+
+    .found-grow {
+        left: -37%;
+        width: 220px;
+        height: 224px;
+        padding: 20px 14px 31px;
+    }
+    .found-pro img {
+        right: 87px;
+        top: -17px;
+        width: 192px;
+    }
+
+    .found-pro-content {
+        margin-bottom: 80px;
+    }
+
+    .m-t-9 {
+        display: flex;
+        justify-content: center;
+        row-gap: 4rem;
+        column-gap: 6rem;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero .title,
+    .found-year span {
+        font-size: 3.2rem;
+    }
+    .hero-img {
+        width: 368px;
+        right: calc((100vw - 1110px) / 2 + 197px);
+        bottom: 25%;
+    }
+
+    .hero .desc-title,
+    .hero .desc,
+    .properties-sub {
+        font-size: 1.4rem;
+    }
+    .properies-icons + .properies-icons {
+        display: inline-block;
+        margin: 6px 0;
+    }
+
+    .properies-icons:last-child {
+        padding: 0;
+    }
+    .properties-container {
+        padding: 20px 10px;
+    }
+
+    .properties-lists {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+
+    .properties-item {
+        margin: 0 5px;
+    }
+
+    .found-grow {
+        display: none;
+    }
+
+    .year-content p {
+        font-size: 1.6rem;
+    }
+    .found-pro-content {
+        margin-top: 78px;
+    }
+
+    .found-pro img {
+        right: 52px;
+        width: 155px;
+    }
+}
