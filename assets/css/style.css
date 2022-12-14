@@ -563,6 +563,24 @@ h2 {
     margin-bottom: 19px;
 }
 
+.footer-social {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.footer-social a {
+    display: inline-block;
+    background: #f9f9f9;
+    line-height: 28px;
+    width: 28px;
+    height: 28px;
+    border-radius: 5px;
+}
+.footer-social-link + .footer-social-link {
+    margin-left: 16px;
+}
+
 .footer-copy {
     display: flex;
     align-items: center;
