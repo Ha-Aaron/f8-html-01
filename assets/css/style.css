@@ -550,6 +550,7 @@ h2 {
 
 .footer-copy {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     margin: 74px 0 58px;
 }
