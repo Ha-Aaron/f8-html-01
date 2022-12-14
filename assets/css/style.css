@@ -167,7 +167,7 @@ main {
 }
 
 .m-t-9 {
-    margin-top: 96px;
+    margin-top: 70px;
 }
 
 .works .works-content {
@@ -250,6 +250,21 @@ h2 {
 
 .properties .works-container {
     margin-top: 15px;
+}
+
+.works-container .product img {
+    width: 100%;
+}
+.works-container .product {
+    display: flex;
+    align-items: center;
+    padding: 0 42px;
+    height: 90px;
+}
+
+.works-container .product:hover {
+    box-shadow: 0px 45px 80px rgba(0, 0, 0, 0.04);
+    border-radius: 12px;
 }
 
 .works .work-btn {
