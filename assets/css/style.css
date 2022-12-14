@@ -44,19 +44,30 @@ a {
 }
 /* header */
 main {
-    overflow: hidden;
+    /* overflow-x: hidden; */
 }
 
-.header {
+header {
     background-color: #e6f0ff;
-    height: 736px;
+    padding-top: 26px;
+    position: sticky;
+    top: -26px;
+    z-index: 100;
+}
+
+.header-wrap {
     position: relative;
+    background-color: #e6f0ff;
+    height: calc(100vh - 90px);
+    display: flex;
+    flex-direction: column;
 }
 
 .navbar {
     display: flex;
     align-items: center;
     padding-top: 46px;
+    padding: 12px 0;
 }
 
 .navbar ul {
@@ -95,6 +106,7 @@ main {
 
 .hero {
     margin-top: 130px;
+    display: flex;
 }
 
 .hero .info {
